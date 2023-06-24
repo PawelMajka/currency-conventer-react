@@ -1,0 +1,14 @@
+.app {
+    flex-basis: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(236, 245, 245);
+    border-radius: 20px;
+}
+.container {
+    flex-basis: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(236, 245, 245);
+    border-radius: 20px;
+  }
