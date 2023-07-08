@@ -1,7 +1,7 @@
 # 💰 currency-conventer-react
 
 ## 🌎 Demo:
-You can visit my website here: [ToDo-List-React](https://pawelmajka.github.io/currency-conventer-react/)
+You can visit my website here: [currency-conventer-react](https://pawelmajka.github.io/currency-conventer-react/)
 
 ## 📋 Description:
 
