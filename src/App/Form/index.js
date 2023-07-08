@@ -15,7 +15,8 @@ export const Form = ({ calculateResult, result }) => {
 
   return (
     <form className="form" onSubmit={onSubmit}>
-      <h1 className="form__legend">Kalkulator walut</h1>
+      <h1 className="form__header">Kalkulator walut</h1>
+      <p>*-pole wymagane</p>
       <p>
         <label>
           <span className="form__labelText">Kwota w zł*:</span>
@@ -26,7 +27,7 @@ export const Form = ({ calculateResult, result }) => {
             type="number"
             className="form__field "
             min="0"
-            step="0.01"
+            step="0.1"
             max="1000000"
             required
           />
@@ -55,9 +56,6 @@ export const Form = ({ calculateResult, result }) => {
         <input class="form__button" type="reset" value="Wyczyść"/>
         <button className="form__button">Przelicz!</button>
       </p>
-
-      <p className="form__info">Kursy pochodzą ze strony nbp.pl</p>
-
       <Result result={result} />
     </form>
   );
