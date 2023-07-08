@@ -4,4 +4,5 @@
     padding: 20px;
     background-color: rgb(236, 245, 245);
     border-radius: 20px;
-}
+    min-height: 40vh;
+} 
