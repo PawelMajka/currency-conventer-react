@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import "./App.css";
 import {Form} from "./Form";
 import {currencies} from "./currencies";
+import Footer from "./Footer";
 
 function App() {
   const [result, setResult] = useState();
@@ -14,6 +15,7 @@ function App() {
     setResult({
         sourceAmount: +amount,
         targetAmount: amount / rate,
+        rateExchange: rate,
         currency,
     });
   }
@@ -24,6 +26,7 @@ function App() {
         result={result}
         calculateResult={calculateResult}
         />
+        <Footer />
     </div>
   );
 }
