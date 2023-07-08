@@ -18,4 +18,10 @@ export const currencies = [
         rate: 5.2851,
     },
 
+    {
+        name: "Polski złoty",
+        short: "PLN",
+        rate: 1.0,
+    },
+
 ];
