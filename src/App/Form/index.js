@@ -53,7 +53,7 @@ export const Form = ({ calculateResult, result }) => {
         </label>
       </p>
       <p>
-        <input class="form__button" type="reset" value="Wyczyść"/>
+        <input className="form__button" type="reset" value="Wyczyść"/>
         <button className="form__button">Przelicz!</button>
       </p>
       <Result result={result} />
