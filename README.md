@@ -10,7 +10,7 @@ It calculates PLN to GBP/USD/EUR/PLN.
 
 ## 🔎 Preview:
 
-![preview](images/pageviev.gif)
+![preview](images/pageviev.JPG)
 
 <br>
 
@@ -18,12 +18,10 @@ It calculates PLN to GBP/USD/EUR/PLN.
 
 - HTML
 - CSS
-- JavaScript - ES6
+- JavaScript - ES6+
 - BEM
-- ES6+ Features
-- Grid
-- Immutability
-- React, ReactDOM
+- Create React App
+- React hooks
 - Babel
 - Webpack
 - React.js
