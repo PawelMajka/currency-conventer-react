@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/currrency-conventer-react/static/css/main.cd2a4228.css",
-    "main.js": "/currrency-conventer-react/static/js/main.7f7ef6d9.js",
-    "static/js/787.7f84aa33.chunk.js": "/currrency-conventer-react/static/js/787.7f84aa33.chunk.js",
-    "static/media/landscape2.jpg": "/currrency-conventer-react/static/media/landscape2.5848febc87b184a41feb.jpg",
-    "index.html": "/currrency-conventer-react/index.html",
-    "main.cd2a4228.css.map": "/currrency-conventer-react/static/css/main.cd2a4228.css.map",
-    "main.7f7ef6d9.js.map": "/currrency-conventer-react/static/js/main.7f7ef6d9.js.map",
-    "787.7f84aa33.chunk.js.map": "/currrency-conventer-react/static/js/787.7f84aa33.chunk.js.map"
+    "main.css": "/currency-conventer-react/static/css/main.1c968199.css",
+    "main.js": "/currency-conventer-react/static/js/main.f77df1cd.js",
+    "static/js/787.7f84aa33.chunk.js": "/currency-conventer-react/static/js/787.7f84aa33.chunk.js",
+    "static/media/landscape2.jpg": "/currency-conventer-react/static/media/landscape2.5848febc87b184a41feb.jpg",
+    "index.html": "/currency-conventer-react/index.html",
+    "main.1c968199.css.map": "/currency-conventer-react/static/css/main.1c968199.css.map",
+    "main.f77df1cd.js.map": "/currency-conventer-react/static/js/main.f77df1cd.js.map",
+    "787.7f84aa33.chunk.js.map": "/currency-conventer-react/static/js/787.7f84aa33.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd2a4228.css",
-    "static/js/main.7f7ef6d9.js"
+    "static/css/main.1c968199.css",
+    "static/js/main.f77df1cd.js"
   ]
 }
