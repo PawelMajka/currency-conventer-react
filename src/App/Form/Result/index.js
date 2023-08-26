@@ -1,8 +1,7 @@
-import React from "react";
 import "./style.css";
 
 export const Result = ({ result }) => (
-  <p className="result">
+  <div className="result">
     {result !== undefined && (
       <>
       <p>Wynik:&nbsp; 
@@ -11,9 +10,10 @@ export const Result = ({ result }) => (
             {result.targetAmount.toFixed(2)}&nbsp;{result.currency}
           </strong>
       </p>
-      <p>Kurs:&nbsp;
-         <strong>{result.rateExchange.toFixed(3)}</strong></p>
+      <span>Kurs:&nbsp;
+         <strong>{result.rateExchange.toFixed(3)}</strong>
+      </span>
       </>
     )}
-  </p>
+  </div>
 );
