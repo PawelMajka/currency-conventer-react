@@ -15,9 +15,7 @@ export const Form = ({ calculateResult, result }) => {
 
   return (
     <form className="form" onSubmit={onSubmit}>
-      <h1 className="form__header">Kalkulator walut</h1>
-      <p>*-pole wymagane</p>
-      <p>
+      <div>
         <label>
           <span className="form__labelText">Kwota w zł*:</span>
           <input
@@ -32,8 +30,8 @@ export const Form = ({ calculateResult, result }) => {
             required
           />
         </label>
-      </p>
-      <p>
+      </div>
+      <div>
         <label>
           <span className="form__labelText">Waluta:</span>
           <select
@@ -51,7 +49,7 @@ export const Form = ({ calculateResult, result }) => {
             ))}
           </select>
         </label>
-      </p>
+      </div>
       <p>
         <button className="form__button">Przelicz!</button>
       </p>

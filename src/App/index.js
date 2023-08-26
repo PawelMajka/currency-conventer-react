@@ -3,6 +3,7 @@ import "./App.css";
 import {Form} from "./Form";
 import {currencies} from "./currencies";
 import Footer from "./Footer";
+import Header from "./Header";
 
 function App() {
   const [result, setResult] = useState();
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <div className="app">
+        <Header />
         <Form
         result={result}
         calculateResult={calculateResult}
