@@ -10,7 +10,7 @@ It calculates PLN to GBP/USD/EUR/PLN.
 
 ## 🔎 Preview:
 
-![preview](images/pageviev.JPG)
+![preview](images/pagevievnew.JPG)
 
 <br>
 
