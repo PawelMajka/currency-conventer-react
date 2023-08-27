@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import "./App.css";
 import {Form} from "./Form";
+import {Clock} from "./Clock";
 import {currencies} from "./currencies";
 import Footer from "./Footer";
 import Header from "./Header";
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <div className="app">
+        <Clock /> 
         <Header />
         <Form
         result={result}
