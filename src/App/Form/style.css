@@ -1,6 +1,6 @@
 .form {
     width: 100%;
-    max-width: 500px;
+    max-width: 90%;
     margin: 10px auto;
 }
 .form__header {
@@ -31,7 +31,7 @@
     border: 1px solid grey; 
     border-radius: 5px;   
     padding: 7px;
-    max-width: 200px;
+    max-width: 65%;
     width: 100%;
     margin-top: 8px;
 }
