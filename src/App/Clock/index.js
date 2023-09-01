@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./style.css";
 
 const formatDate = (date) => date.toLocaleDateString(undefined, {
@@ -11,8 +11,6 @@ const formatDate = (date) => date.toLocaleDateString(undefined, {
 });
 
 export const Clock = () => {
-
-
     const [date, setDate] = useState(new Date());
 
     useEffect(() => {
