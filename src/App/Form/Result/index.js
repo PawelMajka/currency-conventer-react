@@ -1,7 +1,7 @@
-import "./style.css";
+import { Wrapper } from "./styled";
 
 export const Result = ({ result }) => (
-  <div className="result">
+  <Wrapper>
     {result !== undefined && (
       <>
       <p>Wynik:&nbsp; 
@@ -15,5 +15,5 @@ export const Result = ({ result }) => (
       </span>
       </>
     )}
-  </div>
+  </Wrapper>
 );
