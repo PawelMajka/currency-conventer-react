@@ -3,7 +3,7 @@ import { useState } from "react";
 import { currencies } from "../currencies";
 import { Result } from "./Result";
 import "./style.css";
-import { Button } from "./styled"
+import { Button, LabelText, Field, Header } from "./styled"
 
 export const Form = ({ calculateResult, result }) => {
   const [currency, setCurrency] = useState(currencies[0].short);
@@ -18,13 +18,12 @@ export const Form = ({ calculateResult, result }) => {
     <form className="form" onSubmit={onSubmit}>
       <div>
         <label>
-          <span className="form__labelText">Kwota w zł*:</span>
-          <input
+          <LabelText>Kwota w zł*:</LabelText>
+          <Field
             value={amount}
             onChange={({ target }) => setAmount(target.value)}
             placeholder="Wpisz kwotę"
             type="number"
-            className="form__field "
             min="0"
             step="0.1"
             max="1000000"
@@ -34,7 +33,7 @@ export const Form = ({ calculateResult, result }) => {
       </div>
       <div>
         <label>
-          <span className="form__labelText">Waluta:</span>
+          <LabelText>Waluta:</LabelText>
           <select
             className="form__field"
             value={currency}
